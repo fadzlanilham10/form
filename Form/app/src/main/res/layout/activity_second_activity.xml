@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_activity">
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hallo"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="Username"
+        android:id="@+id/tv1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="NIM"
+        android:inputType="number"
+        android:id="@+id/tv2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/tv3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:text="Login"
+        android:id="@+id/login"
+        />
+</RelativeLayout>
